@@ -1,0 +1,48 @@
+body{
+    background-image: linear-gradient(blue, white);
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    margin: 0 auto;
+
+}
+.teste{
+    width: 50%;
+    height: 50%;
+    margin-left: 25%;
+    margin-top: 10%;
+}
+
+.container{
+    margin-top: 10%;
+        }
+
+
+h1{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    margin-top: 30%;
+    margin-bottom: 20%;
+    font-weight: bold;
+    font-size: 60px;
+}
+
+.botoes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content:space-evenly;
+}
+
+.btn btn-primary{
+    padding: 10px 15px;
+    border: none;
+    font-size: 10px;
+}
+
+#nao{
+    position:relative;
+
+}
