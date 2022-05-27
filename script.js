@@ -5,7 +5,10 @@ const btn = document.getElementById("sim");
 const btn2 = document.getElementById("nao");
 
 btn.addEventListener("click", function () {
-    name.innerHTML = "Eu sabia!";
+    name.innerHTML = "Eu sabia! &#128169";
+    btn.style.visibility = "hidden";
+    btn2.style.visibility = "hidden";
+
 
 });
 
@@ -30,8 +33,9 @@ btn2.addEventListener("mouseover", function (){
     }
 
     btn2.addEventListener("click", function () {
-        name.innerHTML = "Olha o esperto!";
-        btn2.innerHTML = ":(";
+        name.innerHTML = "Você ainda é idiota! só que rápido";
+        btn.style.visibility = "hidden";
+        btn2.style.visibility = "hidden";
     });
 
 
