@@ -33,7 +33,8 @@ btn2.addEventListener("mouseover", function (){
     }
 
     btn2.addEventListener("click", function () {
-        name.innerHTML = "Você ainda é idiota! só que rápido";
+        name.innerHTML = "Você ainda é idiota!<br>"+
+            "Só que rápido &#128640";
         btn.style.visibility = "hidden";
         btn2.style.visibility = "hidden";
     });
